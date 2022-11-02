@@ -8,8 +8,11 @@ gem "puma", "~> 5.0"
 
 gem 'graphql'
 gem 'graphiql-rails'
+gem 'graphql-batch'
 
 gem "rack-cors"
+
+gem 'sqlite3'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
