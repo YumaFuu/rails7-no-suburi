@@ -1,8 +1,8 @@
 services:
-  rails:
-    container_name: rails-
+  command:
+    container_name: sample-rails-cmd
     build:
       context: .
-      dockerfile: docker/rails.Dockerfile
+      dockerfile: docker/command/Dockerfile
     volumes:
       - .:/app
