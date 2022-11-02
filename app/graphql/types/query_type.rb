@@ -7,7 +7,10 @@ module Types
     field :users, [Types::UserType], null: false
 
     def users
-      [ { id: 'id', name: 'aa', email: 'yuma.fuu05@gmail.com' } ]
+      [
+        { id: '1', name: 'hello', email: 'hello@sample.com' },
+        { id: '2', name: 'world', email: 'world@sample.com' },
+      ]
     end
   end
 end
